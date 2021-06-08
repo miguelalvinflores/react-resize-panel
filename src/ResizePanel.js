@@ -147,9 +147,7 @@ class ResizePanel extends React.Component {
     let handle = (
       <DraggableCore key="handle" {...dragHandlers}>
         <div className={resizeBarClasses}>
-          <div className={handleClasses}>
-            <span />
-          </div>
+          
         </div>
       </DraggableCore>
     );
